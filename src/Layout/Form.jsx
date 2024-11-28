@@ -48,7 +48,7 @@ const Form = () => {
   return (
     <div className="">
       <section className="bg-white ">
-        <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
+        <div className="lg:grid lg:min-h-screen lg:grid-cols-12 ">
           {/* Left Section */}
           <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
             <img
@@ -96,7 +96,7 @@ const Form = () => {
           {/* Form Section */}
           <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6 ">
             <div className="max-w-xl lg:max-w-3xl">
-              <div className="relative -mt-16 block lg:hidden">
+              <div className="relative -mt-16 block lg:hidden ">
                 <a
                   className="inline-flex size-16 items-center justify-center rounded-full  bg-black text-blue-600 sm:size-20 overflow-hidden"
                   href="#"
@@ -104,8 +104,8 @@ const Form = () => {
                   <img src={banner2} alt="" />
                 </a>
 
-                <div className="text pl-8 md:pl-8">
-                  <div className="trust_and_security text-black font-arimo font-bold my-5">
+                <div className="text  md:pl-8  ">
+                  <div className="trust_and_security text-black font-arimo font-bold my-5  ">
                     <h2 className="md:text-[40px] text-xl">
                       Trust and Security
                     </h2>
@@ -141,7 +141,7 @@ const Form = () => {
 
               <form
                 onSubmit={handleSubmit}
-                className="mt-8 grid grid-cols-6 gap-6 outline-none"
+                className="mt-8 grid grid-cols-6 gap-6 outline-none p-4 md:p-0"
               >
                 <div className="col-span-6 sm:col-span-3">
                   <label className="block text-lg font-medium text-black">

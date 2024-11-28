@@ -8,7 +8,7 @@ import Button from "../Layout/Button";
 
 const Home = () => {
   return (
-    <div className=" bg-[url(../public/bg.png)] bg-contain bg-center ">
+    <div className=" bg-[url(../public/bg.png)] bg-contain bg-center overflow-hidden">
       <div className="slider">
         <Link to="/shop">
           {" "}
@@ -28,7 +28,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className="description md:w-[700px] w-[450px] text-center mx-auto font-bold my-5 animate__animated animate__fadeInDown animate__backOutUp animate__delay-1s">
+          <div className="description md:w-[700px] w-[300px] sm:w-[450px] text-center mx-auto font-bold my-5 animate__animated animate__fadeInDown animate__backOutUp animate__delay-1s">
             <p>
               Welcome to the ultimate Robux buying platform in Bangladesh!
               Managing a thriving Roblox community on Facebook, I’ve seen the
@@ -66,7 +66,7 @@ const Home = () => {
               trustworthy.
             </p>
             <h1 className="text-white font-arimo font-bold md:text-4xl text-2xl text-center md:text-start">SO ARE YOU READY TO ORDER?</h1>
-            <div className="py-7 text-center">
+            <div className="py-7 text-center md:text-start">
              <Link to="/shop"><Button/></Link> 
             </div>
           </div>

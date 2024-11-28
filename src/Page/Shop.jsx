@@ -11,10 +11,11 @@ import r3 from '../../public/pricechart/r800.png'
 import r4 from '../../public/pricechart/r1700.png'
 import r5 from '../../public/pricechart/r4500.png'
 import "animate.css";
+import Form from '../Layout/Form';
 
 const Shop = () => {
   return (
-    <div className='bg-[url(../public/bg.png)] bg-contain bg-center pt-20'>
+    <div className='bg-[url(../public/bg.png)] bg-contain bg-center pt-3 md:pt-0 overflow-hidden'>
     <Container className='animate__animated animate__fadeIn md:py-16 py-8'>
     <div className='md:mb-7 mb-4 border-b pb-2 md:pb-3 flex justify-between items-center px-2'>
         <h1 className='text-white font-arimo text-xl md:text-[40px]'>PREMIUM PACKAGE</h1>
@@ -42,7 +43,7 @@ const Shop = () => {
     </Container>
 
     {/* SECTION------------------- */}
-    <Container className='md:py-16 py-8'>
+    <Container className='md:py-16 py-1'>
     <div className='md:mb-7 mb-4 border-b pb-2 md:pb-3 flex justify-between items-center px-2'>
         <h1 className='text-white font-arimo text-xl md:text-[40px]'>NORMAL PACKAGE</h1>
 

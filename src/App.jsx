@@ -13,6 +13,7 @@ import RootLayout from './Layout/RootLayout';
 
 import Home from './Page/Home';
 import Shop from './Page/Shop';
+import Form from './Layout/Form';
 
 
 const router = createBrowserRouter(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />}></Route>
       <Route path="/shop" element={<Shop />}></Route>
+      <Route path="/checkout" element={<Form />}></Route>
     </Route>
   )
 );

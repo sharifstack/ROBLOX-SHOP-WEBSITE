@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
 
           <div className="rights">
-            <p className="text-white font-arimo">
+            <p className="text-white font-arimo text-sm text-center">
               Copyright © 2024 - All right reserved by Roblox Bangladesh
             </p>
           </div>

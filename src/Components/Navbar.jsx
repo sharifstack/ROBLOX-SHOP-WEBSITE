@@ -7,7 +7,7 @@ import Container from "../Layout/Container";
 const Navbar = () => {
   return (
     <div>
-      <nav className="py-6  absolute w-full z-10 backdrop-blur-xl rounded-none md:rounded-b-full pl-5 md:pl-0">
+      <nav className="py-6 bg-[#262626] backdrop-blur-xl rounded-none  pl-5 md:pl-0">
         <Container className="flex items-center ">
           <div className="logo relative">
            <Link to="/"> <img className="w-24" src={logo} alt="" /></Link>

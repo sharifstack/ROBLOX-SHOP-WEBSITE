@@ -87,6 +87,10 @@ const Form = () => {
                       Note: You have to Send Payment First And Submit The Form
                       With Proper Details
                     </h2>
+
+                    <h3 className="mt-3 text-red-500 text-4xl ">
+                      Bkash: 01754929680
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -95,17 +99,17 @@ const Form = () => {
 
           {/* Form Section */}
           <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6 ">
-            <div className="max-w-xl lg:max-w-3xl">
-              <div className="relative -mt-16 block lg:hidden ">
+            <div className="max-w-xl lg:max-w-3xl ">
+              <div className="relative ml-12  md:ml-0 -mt-16 block lg:hidden">
                 <a
                   className="inline-flex size-16 items-center justify-center rounded-full  bg-black text-blue-600 sm:size-20 overflow-hidden"
                   href="#"
                 >
-                  <img src={banner2} alt="" />
+                  <img className="" src={banner2} alt="" />
                 </a>
 
                 <div className="text  md:pl-8  ">
-                  <div className="trust_and_security text-black font-arimo font-bold my-5  ">
+                  <div className="trust_and_security text-black font-arimo font-bold my-7 pl-5 md:pl-0">
                     <h2 className="md:text-[40px] text-xl">
                       Trust and Security
                     </h2>
@@ -118,7 +122,7 @@ const Form = () => {
                     </ul>
                   </div>
 
-                  <div className="trust_and_security text-black font-arimo font-bold my-5">
+                  <div className="trust_and_security text-black font-arimo font-bold  pl-5 md:pl-0">
                     <h2 className="md:text-[40px] text-xl">
                       Delivery Information
                     </h2>
@@ -130,10 +134,12 @@ const Form = () => {
                       <li>Double-check your Roblox username.</li>
                     </ul>
                     <div className="note w-[400px] mt-4">
-                      <h2 className="text-red-500 text-lg font-bold">
+                      <h2 className="text-red-500 text-lg w-[336px] font-bold">
                         Note: You have to Send Payment First And Submit The Form
                         With Proper Details
                       </h2>
+
+                      <h3 className="mt-3 text-red-500 ">Bkash: 01754929680</h3>
                     </div>
                   </div>
                 </div>
@@ -141,7 +147,7 @@ const Form = () => {
 
               <form
                 onSubmit={handleSubmit}
-                className="mt-8 grid grid-cols-6 gap-6 outline-none p-4 md:p-0"
+                className="mt-1 grid grid-cols-6 gap-6 outline-none p-12 md:p-0"
               >
                 <div className="col-span-6 sm:col-span-3">
                   <label className="block text-lg font-medium text-black">

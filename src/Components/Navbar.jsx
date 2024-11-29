@@ -1,16 +1,19 @@
 import React from "react";
 
-import logo from '../../public/logo.png'
+import logo from "../../public/logo.png";
 import { Link } from "react-router-dom";
 import Container from "../Layout/Container";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="py-6 bg-[#262626] backdrop-blur-xl rounded-none  pl-5 md:pl-0">
+    <div className="sticky top-0 z-30">
+      <nav className="py-6 bg-[#262626] backdrop-blur-xl rounded-none  pl-5 md:pl-0 ">
         <Container className="flex items-center ">
           <div className="logo relative">
-           <Link to="/"> <img className="w-24" src={logo} alt="" /></Link>
+            <Link to="/">
+              {" "}
+              <img className="w-24" src={logo} alt="" />
+            </Link>
           </div>
           <div className="menu absolute md:left-1/2 -translate-x-1/2  left-3/4 ">
             <ul className="flex md:gap-10 gap-5 items-center justify-center font-arimo font-bold text-lg text-white uppercase ">
